@@ -1,0 +1,178 @@
+{
+ "protocol": {
+  "RATE": 40,
+  "N_ARM": 150,
+  "ENTRY": [
+   0,
+   6,
+   12
+  ],
+  "REPS": 2000,
+  "P0": 0.15,
+  "effects": {
+   "null": 0.0,
+   "effective": 1.1155618469818829
+  }
+ },
+ "results": {
+  "no time trend": {
+   "null": {
+    "separate": {
+     "rejection": 0.0475,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.05275,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.0475,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.054,
+     "controls_used": 328.0
+    }
+   },
+   "effective": {
+    "separate": {
+     "rejection": 0.984,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.985,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.99825,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.98525,
+     "controls_used": 328.0
+    }
+   }
+  },
+  "seasons (\u00b15 points)": {
+   "null": {
+    "separate": {
+     "rejection": 0.04225,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.04775,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.05025,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.04925,
+     "controls_used": 328.0
+    }
+   },
+   "effective": {
+    "separate": {
+     "rejection": 0.985,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.983,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.99625,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.98475,
+     "controls_used": 328.0
+    }
+   }
+  },
+  "seasons + drift": {
+   "null": {
+    "separate": {
+     "rejection": 0.045,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.03425,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.04925,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.03525,
+     "controls_used": 328.0
+    }
+   },
+   "effective": {
+    "separate": {
+     "rejection": 0.9905,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.991,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 1.0,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.99175,
+     "controls_used": 328.0
+    }
+   }
+  },
+  "seasons, placebo only": {
+   "null": {
+    "separate": {
+     "rejection": 0.05225,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.05075,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.05025,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.0515,
+     "controls_used": 328.0
+    }
+   },
+   "effective": {
+    "separate": {
+     "rejection": 0.97725,
+     "controls_used": 150.0
+    },
+    "concurrent": {
+     "rejection": 0.9795,
+     "controls_used": 157.0
+    },
+    "pooled": {
+     "rejection": 0.99575,
+     "controls_used": 328.0
+    },
+    "adjusted": {
+     "rejection": 0.9805,
+     "controls_used": 328.0
+    }
+   }
+  }
+ },
+ "platform_size": {
+  "patients": 828,
+  "placebo": 378,
+  "months": 21,
+  "separate_patients": 900,
+  "separate_placebo": 450
+ }
+}
